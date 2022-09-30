@@ -1,0 +1,14 @@
+website:
+  sidebar:
+    contents:
+      - preface.ipynb
+      - section: develop
+        contents:
+          - develop/index.qmd
+          - develop/01_Intro2MetaFlow.ipynb
+          - develop/02_Intro2SageMaker.ipynb
+      - section: prepare
+        contents:
+          - prepare/index.qmd
+          - prepare/01_DataScaling.ipynb
+          - prepare/02_TransferLearning.ipynb
