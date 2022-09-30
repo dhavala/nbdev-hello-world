@@ -2,7 +2,7 @@ project:
   output-dir: _docs
 
 website:
-  title: "Effective ML"
+  title: "effective ml"
   site-url: "https://dhavala.github.io/nbdev-hello-world"
   description: "experiment with nbdev for a book format"
   repo-branch: main

@@ -15,8 +15,20 @@ website:
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
+  title: junk
+
   sidebar:
-    contents: auto
+    style: floating
+    contents:
+      - auto: "/*.ipynb"
+      - section: prepare
+        contents: 
+          - prepare/01_DataScaling.ipynb
+          - prepare/02_TransferLearning.ipynb
+      - section: develop
+        contents:
+          - develop/01_Intro2MetaFlow.ipynb
+          - develop/02_Intro2SageMaker.ipynb
         
   navbar:
     background: primary
@@ -42,4 +54,4 @@ website:
         aria-label: Fast.ai Twitter
 
 
-metadata-files: [nbdev.yml]
+metadata-files: [nbdev.yml,sidebar.yml]

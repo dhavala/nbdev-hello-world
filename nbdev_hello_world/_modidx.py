@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://dhavala.github.io',
                 'git_url': 'https://github.com/dhavala/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('preface.html#foo', 'nbdev_hello_world/core.py')}}}
