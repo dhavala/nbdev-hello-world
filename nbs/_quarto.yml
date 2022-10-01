@@ -37,21 +37,27 @@ website:
     left:
       - text: "Foreword"
         href: foreword.qmd
+      - text: "Preface"
+        href: preface.qmd
+      - text: "Introduction"
+        href: intro.qmd
+      
+      
       - text: "Wadhwani AI"
         menu:
           - text: "About Us"
-            icon: bug
-            href: https://wadhwaniai.org/blog/
-          - text: "Fast.ai Forum"
-            icon: chat-right-text
+            icon: people-fill
             href: https://wadhwaniai.org/about/
+          - text: "Blog"
+            icon: pen-fill
+            href: https://wadhwaniai.org/blog/
           
     right:
       - icon: github
         href: "https://github.com/WadhwaniAI"
       - icon: twitter
-        href: https://twitter.com/fastdotai
-        aria-label: Fast.ai Twitter
+        href: https://twitter.com/WadhwaniAI
+        aria-label: wadhwaniai.org Twitter
 
 
 metadata-files: [nbdev.yml,sidebar.yml]
