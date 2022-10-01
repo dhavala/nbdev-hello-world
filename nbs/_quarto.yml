@@ -15,11 +15,11 @@ website:
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
-  title: junk
 
   sidebar:
     style: floating
     contents:
+      - index.qmd
       - auto: "/*.ipynb"
       - section: prepare
         contents: 
@@ -36,7 +36,7 @@ website:
     collapse-below: lg
     left:
       - text: "Foreword"
-        href: preface.ipynb
+        href: foreword.qmd
       - text: "Wadhwani AI"
         menu:
           - text: "About Us"
