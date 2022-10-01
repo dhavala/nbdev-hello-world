@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/develop/index.html",
+    "items": [
+      "/develop/intro2metaflow.html",
+      "/develop/intro2sagemaker.html"
+    ]
+  },
+  {
+    "listing": "/prepare/index.html",
+    "items": [
+      "/prepare/datascaling.html",
+      "/prepare/transferlearning.html"
+    ]
+  }
+]
